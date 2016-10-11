@@ -63,8 +63,8 @@
         "storageProfile": {
           "imageReference": {
             "publisher": "MicrosoftSQLServer",
-            "offer": "SQL2014SP1-WS2012R2",
-            "sku": "Standard",
+            "offer": "SQL2014-WS2012R2",
+            "sku": "Enterprise",
             "version": "latest"
           },
           "osDisk": {
@@ -128,6 +128,7 @@
         "autoUpgradeMinorVersion": true,
         "settings": {
           "ModulesUrl": "[parameters('sqlPrepareModulesURL')]",
+          "wmfVersion": "4.0",
           "ConfigurationFunction": "[parameters('sqlPreparationFunction')]",
           "Properties": {
                 "DNSServer": "[parameters('DNSServerAddress')]"
