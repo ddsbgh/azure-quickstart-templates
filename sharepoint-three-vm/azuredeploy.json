@@ -162,7 +162,7 @@
         "artifactsBaseUrl": "",
         "description": "URL to acquire other templates"
       },
-      "defaultValue": "https://github.com/ddsbgh/azure-quickstart-templates/blob/master/sharepoint-three-vm"
+      "defaultValue": "https://raw.githubusercontent.com/ddsbgh/azure-quickstart-templates/master/sharepoint-three-vm"
     },
     "spPublicIPNewOrExisting": {
       "type": "string",
