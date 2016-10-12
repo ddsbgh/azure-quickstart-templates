@@ -154,7 +154,8 @@
       "type": "string",
       "metadata": {
         "description": "The DNS Prefix for the SharePoint Public IP Address"
-      }
+      },
+      "defaultValue": "opensimspoc"
     },
     "baseUrl": {
       "type": "string",
