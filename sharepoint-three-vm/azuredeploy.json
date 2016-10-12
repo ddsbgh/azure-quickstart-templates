@@ -75,21 +75,21 @@
       "metadata": {
         "description": "The size of the AD VM Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_DS2_v2"
     },
     "sqlVMSize": {
       "type": "string",
       "metadata": {
         "description": "The size of the SQL VM Created"
       },
-      "defaultValue": "Standard_DS2"
+      "defaultValue": "Standard_DS3_v2"
     },
     "spVMSize": {
       "type": "string",
       "metadata": {
         "description": "The size of the VM Created"
       },
-      "defaultValue": "Standard_DS3"
+      "defaultValue": "Standard_DS3_v2"
     },
     "domainName": {
       "type": "string",
@@ -148,7 +148,7 @@
       "metadata": {
         "description": "The Sharepoint Content Site Template Name"
       },
-      "defaultValue": "STS#0"
+      "defaultValue": "CENTRALADMIN#0"
     },
     "spDNSPrefix": {
       "type": "string",
@@ -162,7 +162,7 @@
         "artifactsBaseUrl": "",
         "description": "URL to acquire other templates"
       },
-      "defaultValue": "https://raw.githubusercontent.com/Azure/azure-quickstart-templates/master/sharepoint-three-vm"
+      "defaultValue": "https://github.com/ddsbgh/azure-quickstart-templates/blob/master/sharepoint-three-vm"
     },
     "spPublicIPNewOrExisting": {
       "type": "string",
@@ -205,7 +205,7 @@
       "metadata": {
         "description": "The type of the Storage Account created"
       },
-      "defaultValue": "Premium_LRS"
+      "defaultValue": "Standard_LRS"
     }
   },
   "variables": {
